@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -22,10 +22,10 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StageWithNoSteps" translatesAutoresizingMaskIntoConstraints="NO" id="Gre-Uy-4qi">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StageWithNoSteps" translatesAutoresizingMaskIntoConstraints="NO" id="ITq-wm-r3u">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundSketch" translatesAutoresizingMaskIntoConstraints="NO" id="ITq-wm-r3u">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stepsOfStage" translatesAutoresizingMaskIntoConstraints="NO" id="L1H-te-pbJ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StageSteps" translatesAutoresizingMaskIntoConstraints="NO" id="L1H-te-pbJ">
                                 <rect key="frame" x="0.0" y="470" width="600" height="130"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="L1H-te-pbJ" secondAttribute="height" multiplier="60:13" id="qlG-ep-22i"/>
@@ -33,6 +33,7 @@
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="♫ ♩♩Opera Dome - Opera House Showdown ♫♩♬" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9p-XW-hqR">
                                 <rect key="frame" x="0.0" y="106" width="600" height="28"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="T9p-XW-hqR" secondAttribute="height" multiplier="150:7" id="VxC-ie-ZCF"/>
                                 </constraints>
@@ -68,7 +69,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="BackgroundSketch" width="1024" height="768"/>
+        <image name="StageSteps" width="1024" height="350"/>
         <image name="StageWithNoSteps" width="1024" height="768"/>
-        <image name="stepsOfStage" width="1024" height="350"/>
     </resources>
 </document>

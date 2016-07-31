@@ -108,6 +108,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="ℹ️"/>
                                 <connections>
+                                    <action selector="goCredits:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fvA-iU-Y2G"/>
                                     <segue destination="IJe-mQ-6yi" kind="presentation" identifier="goCredits" modalTransitionStyle="flipHorizontal" id="2dy-ef-MjF"/>
                                 </connections>
                             </button>

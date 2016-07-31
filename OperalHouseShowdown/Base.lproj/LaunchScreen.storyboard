@@ -19,9 +19,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StageWithNoSteps" translatesAutoresizingMaskIntoConstraints="NO" id="Gre-Uy-4qi">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundSketch" translatesAutoresizingMaskIntoConstraints="NO" id="ITq-wm-r3u">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
@@ -33,7 +30,7 @@
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="♫ ♩♩Opera Dome - Opera House Showdown ♫♩♬" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9p-XW-hqR">
                                 <rect key="frame" x="0.0" y="106" width="600" height="28"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="T9p-XW-hqR" secondAttribute="height" multiplier="150:7" id="VxC-ie-ZCF"/>
                                 </constraints>
@@ -42,23 +39,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.99607843139999996" green="0.76470588240000004" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="L1H-te-pbJ" firstAttribute="width" secondItem="Gre-Uy-4qi" secondAttribute="width" id="1nr-1a-YC3"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Gre-Uy-4qi" secondAttribute="bottom" id="8K7-Bn-e1s"/>
                             <constraint firstItem="T9p-XW-hqR" firstAttribute="centerX" secondItem="ITq-wm-r3u" secondAttribute="centerX" id="9g7-yf-Pcw"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="L1H-te-pbJ" secondAttribute="bottom" id="AkF-jH-RkF"/>
                             <constraint firstItem="ITq-wm-r3u" firstAttribute="centerY" secondItem="T9p-XW-hqR" secondAttribute="centerY" multiplier="2.5" id="Ffn-xi-a51"/>
                             <constraint firstItem="T9p-XW-hqR" firstAttribute="width" secondItem="ITq-wm-r3u" secondAttribute="width" id="U0Z-El-IyV"/>
                             <constraint firstAttribute="trailing" secondItem="ITq-wm-r3u" secondAttribute="trailing" id="WwK-T6-PLZ"/>
                             <constraint firstAttribute="trailing" secondItem="L1H-te-pbJ" secondAttribute="trailing" id="doL-Is-5g9"/>
-                            <constraint firstItem="Gre-Uy-4qi" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="fio-fa-MB2"/>
-                            <constraint firstAttribute="trailing" secondItem="Gre-Uy-4qi" secondAttribute="trailing" id="i5k-91-qBZ"/>
                             <constraint firstItem="ITq-wm-r3u" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="lTR-CB-cwC"/>
                             <constraint firstItem="ITq-wm-r3u" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="qKZ-ot-0Kp"/>
                             <constraint firstAttribute="bottom" secondItem="ITq-wm-r3u" secondAttribute="bottom" id="raD-EA-yYk"/>
-                            <constraint firstItem="L1H-te-pbJ" firstAttribute="centerX" secondItem="Gre-Uy-4qi" secondAttribute="centerX" id="rzH-kD-1h8"/>
-                            <constraint firstItem="Gre-Uy-4qi" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="urw-g1-oEo"/>
                             <constraint firstItem="L1H-te-pbJ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="yg6-OB-Gxt"/>
                         </constraints>
                     </view>
@@ -71,6 +62,5 @@
     <resources>
         <image name="BackgroundSketch" width="1024" height="768"/>
         <image name="StageSteps" width="1024" height="350"/>
-        <image name="StageWithNoSteps" width="1024" height="768"/>
     </resources>
 </document>

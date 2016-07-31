@@ -64,6 +64,10 @@ class MainViewController: UIViewController {
         }
 
     }
+    
+    @IBAction func goCredits(sender: UIButton) {
+    }
+    
 
     @IBAction func restartGame(sender: UIButton) {
         startNewGame()

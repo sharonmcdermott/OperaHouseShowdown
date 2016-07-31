@@ -98,26 +98,26 @@ class MainViewController: UIViewController {
     func endOfGame() {
         var winner: Player
         var loser: Player
-//        var possesivePronoun : "Pronoun"
+
         
         if player2.stillHasVoice() {
             winner = player2
             loser = player1
-//            possesivePronoun = "their"
+
         } else {
             winner = player1
             loser = player2
-//            possesivePronoun = "his"
+
         }
         challengeLabel.text = "\(loser.name) lost their voice and \(winner.name) won the challenge!"
-        // how do a get the text to print gramatically correct?  \(string)
+
     }
     
 
     func startNewGame() {
         
         player1 = Player(name: "Barbers", octave: 130, attackPwr: 30)
-        player2 = Player(name: "Bathtub Boy", octave: 120, attackPwr: 35)
+        player2 = Player(name: "Bathtub Boy and Ducky", octave: 120, attackPwr: 35)
     }
     
     

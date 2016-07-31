@@ -255,17 +255,17 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ClI-x6-KY9">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" pagingEnabled="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ClI-x6-KY9">
                                 <rect key="frame" x="0.0" y="44" width="600" height="556"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Opera House Showdown is a two player game, so pick your player carefully.
+                                <mutableString key="text">Opera House Showdown is a two player game, so pick your player carefully.
 The Barbers start out with an OVA or octave of 130. The Bathtub Boy starts out with an OVA or octave of 120.
 
 Now it is not unheard of for the Bathtub Boy to win. just keep in mind if you pick him, you start off a little short.  Maybe the rubber ducky can help!
 
-A little opera trivia:  What does it mean to “Sing Out”?  It means to sing at full voice.  Often in rehearsals, an opera singer will not sing at full voice to preserve their voice for a performance.
+A little opera trivia:  "Sing Out", means to sing at full voice.  Often in rehearsals, an opera singer will not sing at full voice to preserve their voice for a performance.
 
-Enjoy the game!</string>
+Enjoy the game!</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
@@ -279,8 +279,16 @@ Enjoy the game!</string>
                             <constraint firstAttribute="trailing" secondItem="xM7-Pf-3lF" secondAttribute="trailing" id="JnG-vw-qxM"/>
                             <constraint firstItem="xM7-Pf-3lF" firstAttribute="top" secondItem="Ltm-2D-Eur" secondAttribute="top" id="g52-yU-yRQ"/>
                             <constraint firstAttribute="trailing" secondItem="ClI-x6-KY9" secondAttribute="trailing" id="gsl-CB-ctK"/>
+                            <constraint firstItem="LoK-sG-P1U" firstAttribute="top" secondItem="ClI-x6-KY9" secondAttribute="bottom" id="h6K-g5-6wL"/>
+                            <constraint firstItem="ClI-x6-KY9" firstAttribute="top" secondItem="xM7-Pf-3lF" secondAttribute="bottom" id="x1x-P6-VpJ"/>
                             <constraint firstItem="xM7-Pf-3lF" firstAttribute="leading" secondItem="Ltm-2D-Eur" secondAttribute="leading" id="yK0-dT-moV"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="237-tB-E9c"/>
+                                <exclude reference="Fab-I7-Whz"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="textView" destination="ClI-x6-KY9" id="pUx-ar-jPW"/>

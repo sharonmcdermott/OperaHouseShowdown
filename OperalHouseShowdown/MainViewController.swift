@@ -122,8 +122,10 @@ class MainViewController: UIViewController {
     
     
     func updateLabels() {
-        octave1Label.text = player1.currentStatus()
-        octave2Label.text = player2.currentStatus()
+        dispatch_async(dispatch_get_main_queue(), { [unowned self] in
+            self.octave1Label.text = self.player1.currentStatus()
+            self.octave2Label.text = self.player2.currentStatus()
+        })
         updateChallenge()
     }
         

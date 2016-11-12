@@ -117,7 +117,7 @@ class MainViewController: UIViewController {
     func startNewGame() {
         
         player1 = Player(name: "Barbers", octave: 130, attackPwr: 30)
-        player2 = Player(name: "Bathtub Boy and Ducky", octave: 120, attackPwr: 35)
+        player2 = Player(name: "Bathtub Boy & Ducky", octave: 120, attackPwr: 35)
     }
     
     
